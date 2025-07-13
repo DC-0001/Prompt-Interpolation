@@ -9,7 +9,7 @@ This project is a generative AI tool that visualizes **smooth transitions betwee
 - 🔁 Generates smooth visual interpolations between two prompts.
 - 🎨 Uses Stable Diffusion v1.5 for high-quality image synthesis.
 - ⚙️ Optimized GIF creation via frame-count and latency trade-offs.
-- 🧠 Integrates LLaMA for richer embeddings (optional extension).
+- 🧠 Integrates LLaMA for richer embeddings.
 - 🌐 Built-in Gradio UI for interactive use.
   
 <br/>
@@ -19,7 +19,8 @@ This project is a generative AI tool that visualizes **smooth transitions betwee
 Launch locally:
 
 ```bash
-git clone https://github.com/yourusername/prompt-interpolation.git
-cd prompt-interpolation
+git clone https://github.com/DC-0001/Prompt-Interpolation.git
+cd Prompt-Interpolation
 pip install -r requirements.txt
-python app.py  # or run the notebook
+jupyter notebook             # or `jupyter lab`
+# open main.ipynb and run all cells
